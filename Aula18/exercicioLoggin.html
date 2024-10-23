@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background: white;
+            padding: 20px;
+            
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: blue;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #eb0606;
+            border: none;
+            border-radius: 3px;
+            color: white;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #f70c0c;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Login</h2>
+        <div class="input-group">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Entrar</button>
+</div>
+
+</body>
+</html>
